@@ -45,3 +45,15 @@ for (let i = 0; i < students.length; i++) {
 }
 
 // dare la possibilità all'utente, attraverso 3 prompt (), di aggiungere un nuovo oggetto studente inserendolo nell'ordine: nome, cognome, età.
+
+let nomeUtente = prompt('inserire il proprio nome');
+let cognomeUtente = prompt('inserire il proprio congome');
+let etaUtente = parseInt(prompt('inserire la propria età'));
+
+students.push({
+    nome: nomeUtente,
+    cognome: cognomeUtente,
+    eta: etaUtente
+});
+
+console.log(students);
