@@ -7,7 +7,9 @@ let student = {
 }
 
 // stampare a schermo attraverso un ciclo for-in tutte le proprietà dell'oggetto.
-
+for (let key in student) {
+    console.log(key + ': ' + student[key]);
+}
 
 
 // creare un array di oggetti studenti.
